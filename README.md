@@ -19,7 +19,12 @@ This project involves working with a dataset to perform data preprocessing, expl
 
 ## Dataset
 
-The dataset used in this project is [provide dataset details or a link if it's publicly available]. It includes various attributes related to [briefly describe the dataset].
+The dataset used in this project is https://catalog.data.gov/dataset/electric-vehicle-population-data. It includes various attributes related to Provided by the State of Washington, this dataset displays information about battery electric
+vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs) currently registered through the
+Washington State Department of Licensing. Data is separated into 17 different columns, showing
+each vehicle’s VIN, county and city of registration, make and model, electric type and electric
+range. Vehicle model years range from 2013 to the current year, with metadata being routinely
+updated by the Washington government.
 
 ## Installation
 
@@ -29,42 +34,9 @@ To set up the project, follow these steps:
    ```sh
    git clone https://github.com/AbdalrhmanJuber/Data-Science.git
    cd Data-Science
-Create a virtual environment and activate it:
 
-sh
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required dependencies:
 
-pip install -r requirements.txt
-Usage
-To run the scripts and perform the analysis, follow these steps:
 
-Ensure the dataset is available in the appropriate directory.
-
-Execute the preprocessing script:
-
-python preprocessing.py
-Perform exploratory data analysis:
-
-python eda.py
-Generate insights and visualizations:
-
-python insights.py
-Project Structure
-The repository is structured as follows:
-
-Code
-Data-Science/
-├── data/               # Dataset files
-├── notebooks/          # Jupyter notebooks for EDA
-├── scripts/            # Python scripts for preprocessing and analysis
-├── results/            # Generated results and visualizations
-├── README.md           # Project README
-├── requirements.txt    # Python dependencies
-└── .gitignore          # Git ignore file
-Results
-The results of the analysis, including visualizations and insights, can be found in the results directory. Key findings include [briefly mention key findings].
 
 Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
