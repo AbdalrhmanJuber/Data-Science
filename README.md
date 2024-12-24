@@ -7,11 +7,6 @@ The objective of this assignment is to work with a real-world dataset, focusing 
 - Introduction
 - Dataset
 - Installation
-- Usage
-- Project Structure
-- Results
-- Contributing
-- License
 
 ## Introduction
 
